@@ -2,4 +2,22 @@
  "name": "bluetr",
   "version": "1.0.0",
   "description": "free web proxy",
-  "
+  "main": "api/index.js",
+ "scripts":{
+  "start": "node api/index.js"
+ },
+   "dependencies": {
+    "express": "^5.1.0",
+    "axios": "^1.13.4",
+    "ejs": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+"author": "blue-tr",
+ "license": "MIT"
+ "repository":{
+  "type": "git",
+  "url": "https://github.com/blue-tr/bluetr-test1-" //テストなので本番では編集する
+ }
+}
