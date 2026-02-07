@@ -1,7 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  entry: 'api/index.js',
+  target: 'node',
+  entry: './api/index.js',
   output: {
     path: path.resolve(__dirname, 'public/dist'),
     filename: 'bundle.js',
@@ -21,4 +22,5 @@ module.exports = {
     ],
   },
   devtool: 'source-map',
+  mode: 'production',
 };
